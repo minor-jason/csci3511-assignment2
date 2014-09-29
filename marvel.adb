@@ -1,7 +1,7 @@
 with Ada.Text_IO, Ada.Integer_Text_IO, Ada.Float_Text_IO, GNAT.Regpat, Ada.Numerics.Elementary_Functions;
 use Ada.Text_IO, Ada.Integer_Text_IO, Ada.Float_Text_IO, GNAT.Regpat, Ada.Numerics.Elementary_Functions;
 
-procedure Marvel_Universe_Hint is
+procedure Marvel is
 
   Input_File_Name : constant String := "porgat.txt";
   Input_File : File_Type;
@@ -202,5 +202,4 @@ begin
 
   -- Your code to do the other processing will go here.
 
-end Marvel_Universe_Hint;
-
+end Marvel;
